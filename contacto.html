@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+     <!--Vincular CSS-->
+        <link rel="stylesheet" href="style.css">
+        <title>Contacto</title>
+</head>
+<body>
+    <!--los link estan en esta forma porque queria que me quede como una barra de menu de la pagina y no como unna lista, 
+    por eso no use el UL. Todavia no quedaron como queria porque no conosco las herramientatas para hacerlo -->
+      <header>
+        <nav class="navbar"> 
+     <ul>
+          <a href="index.html">Volver a Inicio</a>           
+          <a href="Habitos.html"> Habitos y Practicas saludables</a>             
+          <a href="Alimentacion.html">Alimentacion</a>        
+          <a href="Recetas.html">Recetas</a>         
+          <a href="Contacto.html">Contacto</a>
+     </ul>
+        </nav>
+
+     </header>
+
+     
+
+      <main class="container">
+        <aside class="sidebar"> Menu </aside>
+        <section class="main-content">  
+
+          <img src="foto de contacto.jpg " alt=" fotocontacto">
+
+          <h1 class="titulo-contactanos">contactanos</h1>
+          <p class="titulo-deja-tu-consulta-o-comentario-aca">Deja tu consulta o comentario aca para recibir tu bioritmo personalizado</p>
+    
+     <!--formularios-->
+        <form action="/submit" method="post">
+            <label for="nombre">Nombbre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+
+            <label for="pais">Pais</label>
+            <select name="" id="">
+                <option value="">Argentina</option>
+                <option value="">mexico</option>
+                <option value="">chile</option>
+                <option value="">Uruguay</option>
+                <option value="">Peru</option>
+                <option value="">Brasil</option>
+                <option value="">Bolivia</option>
+                <option value="">Paraguay</option>
+                <option value="">Colombia</option>
+                <option value="">Venezuela</option>
+                <option value="">Ecuador</option>
+            </select>
+
+
+            <label for="genero">Genero:</label>
+            <input type="radio" name="genero" id="genero">
+            <label for="">Homre</label>
+
+            <input type="radio" name="" id="">
+            <label for="">Mujer</label>
+
+            <input type="radio" name="" id="">
+            <label for="">Indistinto</label>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mennsaje" id="mensaje"></textarea>
+            
+            <input type="submit" value="ENVIAR">
+
+
+
+        </form>
+
+        <!-- Aca dejo unos link de referencia sobre la innformacion dada-->
+
+        <h3>Referencias</h3>
+
+        <!-- Esto es un ennlace absoluto-->
+               <a href="https://www.higienismomauricioesteban.com/index.html
+              ">https://www.higienismomauricioesteban.com/index.html</a>
+
+              <h5>otro</h5>
+             <a href="https://higienismo.cl/">https://higienismo.cl/</a>
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+
+  </section>
+
+ </main>
+        
+</body>
+</html>
